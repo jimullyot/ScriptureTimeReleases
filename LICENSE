@@ -1,0 +1,27 @@
+ScriptureTime Release Artifacts License
+
+Copyright (c) 2026 Jim Ullyot
+All rights reserved.
+
+This repository contains compiled firmware binaries, OTA manifests, and related
+release artifacts for ScriptureTime.
+
+Permission is not granted to use, copy, modify, merge, publish, distribute,
+sublicense, sell, or create derivative works from the contents of this
+repository, except as strictly necessary to download and install official
+ScriptureTime releases onto compatible devices.
+
+This repository does not grant any rights to the underlying ScriptureTime
+source code, trademarks, branding, artwork, or other intellectual property,
+except where separate written permission or third-party license terms apply.
+
+Any third-party software or assets included in release artifacts remain subject
+to their own license terms and notices.
+
+THE CONTENTS OF THIS REPOSITORY ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES,
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE,
+ARISING FROM, OUT OF, OR IN CONNECTION WITH THE CONTENTS OF THIS REPOSITORY OR
+THE USE OR OTHER DEALINGS IN THE CONTENTS OF THIS REPOSITORY.
