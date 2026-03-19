@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-19T01:36:02Z",
+  "releases": [
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "publishedAt": "2026-03-19T01:36:02Z",
+      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.0.0/ScriptureTime-1.0.0.bin",
+      "sha256": "7b265b6a8de852fc73c8528fe4471021f8360827d4b7229ea6e6a637d6c8c580",
+      "size": 2555152,
+      "deprecated": false,
+      "invalid": false,
+      "replacementVersion": "",
+      "reason": "",
+      "changelog": {
+        "improvements": [],
+        "fixes": [],
+        "notes": [
+          "Welcome to the first release of ScriptureTime! :)"
+        ]
+      }
+    }
+  ]
+}
