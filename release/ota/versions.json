@@ -1,7 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-19T01:55:12Z",
+  "generatedAt": "2026-03-20T09:08:38Z",
   "releases": [
+    {
+      "version": "1.0.2",
+      "channel": "stable",
+      "publishedAt": "2026-03-20T09:08:38Z",
+      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.0.2/ScriptureTime-1.0.2.bin",
+      "sha256": "0c913539d3e78b955739cb9b687520c4cf7f1cc44939e4b931e339ffc6b76ee2",
+      "size": 2562400,
+      "deprecated": false,
+      "invalid": false,
+      "replacementVersion": "",
+      "reason": "",
+      "changelog": {
+        "improvements": [],
+        "fixes": [
+          "Red letter and transitioning between setting screen fixes."
+        ],
+        "notes": []
+      }
+    },
     {
       "version": "1.0.1",
       "channel": "stable",
