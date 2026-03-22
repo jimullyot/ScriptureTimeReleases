@@ -1,7 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-20T09:08:38Z",
+  "generatedAt": "2026-03-22T10:18:55Z",
   "releases": [
+    {
+      "version": "1.0.3",
+      "channel": "stable",
+      "publishedAt": "2026-03-22T10:18:55Z",
+      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.0.3/ScriptureTime-1.0.3.bin",
+      "sha256": "7f0b60f1401efb6356db26504159cc96609b10d7f035f171612ad4e2d7f064e0",
+      "size": 2557312,
+      "deprecated": false,
+      "invalid": false,
+      "replacementVersion": "",
+      "reason": "",
+      "changelog": {
+        "improvements": [
+          "More reliable navigation when swiping between the main clock screen and settings."
+        ],
+        "fixes": [],
+        "notes": []
+      }
+    },
     {
       "version": "1.0.2",
       "channel": "stable",
