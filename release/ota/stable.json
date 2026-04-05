@@ -1,23 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-22T10:57:56Z",
+  "generatedAt": "2026-04-05T14:25:13Z",
   "release": {
-    "version": "1.0.3",
+    "version": "1.0.5",
     "channel": "stable",
-    "publishedAt": "2026-03-22T10:32:39Z",
-    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.0.3/ScriptureTime-1.0.3.bin",
-    "sha256": "7f0b60f1401efb6356db26504159cc96609b10d7f035f171612ad4e2d7f064e0",
-    "size": 2557312,
+    "publishedAt": "2026-04-05T14:23:25Z",
+    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.0.5/ScriptureTime-1.0.5.bin",
+    "sha256": "26f5cafd982cc27d5682e098980a44c24773826bcd6925ba81999b4e4892ac96",
+    "size": 3824080,
     "deprecated": false,
     "invalid": false,
     "replacementVersion": "",
     "reason": "",
     "changelog": {
       "improvements": [
-        "More reliable navigation when swiping between the main clock screen and settings."
+        "Added chunked OTA download pipeline for reliable firmware updates over SDIO.",
+        "Build pipeline now splits firmware into 128 KB chunks for incremental download.",
+        "Added OtaUpdater class with chunk-based download, NVS resume, and UI callbacks."
       ],
-      "fixes": [],
-      "notes": []
-    }
+      "fixes": [
+        "Changed compile debug level from none to error for better SDIO diagnostics."
+      ],
+      "notes": [
+        "Firmware chunks are uploaded alongside the full binary in each GitHub Release.",
+        "OTA downloads now resume from the last completed chunk after a power cycle."
+      ]
+    },
+    "chunkSize": 131072,
+    "chunkCount": 30
   }
 }

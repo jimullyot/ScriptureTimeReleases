@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-22T10:57:56Z",
+  "generatedAt": "2026-04-05T14:25:13Z",
   "releases": [
+    {
+      "version": "1.0.5",
+      "channel": "stable",
+      "publishedAt": "2026-04-05T14:23:25Z",
+      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.0.5/ScriptureTime-1.0.5.bin",
+      "sha256": "26f5cafd982cc27d5682e098980a44c24773826bcd6925ba81999b4e4892ac96",
+      "size": 3824080,
+      "deprecated": false,
+      "invalid": false,
+      "replacementVersion": "",
+      "reason": "",
+      "changelog": {
+        "improvements": [
+          "Added chunked OTA download pipeline for reliable firmware updates over SDIO.",
+          "Build pipeline now splits firmware into 128 KB chunks for incremental download.",
+          "Added OtaUpdater class with chunk-based download, NVS resume, and UI callbacks."
+        ],
+        "fixes": [
+          "Changed compile debug level from none to error for better SDIO diagnostics."
+        ],
+        "notes": [
+          "Firmware chunks are uploaded alongside the full binary in each GitHub Release.",
+          "OTA downloads now resume from the last completed chunk after a power cycle."
+        ]
+      },
+      "chunkSize": 131072,
+      "chunkCount": 30
+    },
     {
       "version": "1.0.4",
       "channel": "beta",
@@ -19,7 +47,9 @@
         "notes": [
           "Testing OTA updates."
         ]
-      }
+      },
+      "chunkSize": 131072,
+      "chunkCount": 20
     },
     {
       "version": "1.0.3",
@@ -38,7 +68,9 @@
         ],
         "fixes": [],
         "notes": []
-      }
+      },
+      "chunkSize": 131072,
+      "chunkCount": 20
     },
     {
       "version": "1.0.2",
@@ -57,7 +89,9 @@
           "Red letter and transitioning between setting screen fixes."
         ],
         "notes": []
-      }
+      },
+      "chunkSize": 131072,
+      "chunkCount": 20
     },
     {
       "version": "1.0.1",
@@ -77,7 +111,9 @@
           "If WiFi is not connected and no network is configured, the app now tells you to review WiFi Settings and connect first."
         ],
         "notes": []
-      }
+      },
+      "chunkSize": 131072,
+      "chunkCount": 20
     },
     {
       "version": "1.0.0",
@@ -96,7 +132,9 @@
         "notes": [
           "Welcome to the first release of ScriptureTime! :)"
         ]
-      }
+      },
+      "chunkSize": 131072,
+      "chunkCount": 20
     }
   ]
 }
