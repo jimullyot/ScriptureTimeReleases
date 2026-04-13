@@ -1,29 +1,31 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-05T14:25:13Z",
+  "generatedAt": "2026-04-13T01:06:01Z",
   "release": {
-    "version": "1.0.5",
+    "version": "1.0.6",
     "channel": "stable",
-    "publishedAt": "2026-04-05T14:23:25Z",
-    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.0.5/ScriptureTime-1.0.5.bin",
-    "sha256": "26f5cafd982cc27d5682e098980a44c24773826bcd6925ba81999b4e4892ac96",
-    "size": 3824080,
+    "publishedAt": "2026-04-13T01:06:01Z",
+    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.0.6/ScriptureTime-1.0.6.bin",
+    "sha256": "1d33e9990562961b45bc19f23e3449a67e3c609ee887e7e3f681742b2dfb764e",
+    "size": 3832992,
     "deprecated": false,
     "invalid": false,
     "replacementVersion": "",
     "reason": "",
     "changelog": {
       "improvements": [
-        "Added chunked OTA download pipeline for reliable firmware updates over SDIO.",
-        "Build pipeline now splits firmware into 128 KB chunks for incremental download.",
-        "Added OtaUpdater class with chunk-based download, NVS resume, and UI callbacks."
+        "Initial support for over-the-air firmware updates.",
+        "OTA progress displayed on screen during firmware download.",
+        "Resolved PSRAM initialization failure in command-line builds.",
+        "SDIO stability improvements for reliable chunked OTA over ESP-Hosted."
       ],
       "fixes": [
-        "Changed compile debug level from none to error for better SDIO diagnostics."
+        "Fixed build scripts overriding PSRAM board flags (BOARD_HAS_PSRAM).",
+        "Fixed OTA update dialog text overlapping action buttons."
       ],
       "notes": [
-        "Firmware chunks are uploaded alongside the full binary in each GitHub Release.",
-        "OTA downloads now resume from the last completed chunk after a power cycle."
+        "OTA updates can be initiated from General Settings when connected to WiFi.",
+        "Firmware downloads resume from the last completed chunk after a power cycle."
       ]
     },
     "chunkSize": 131072,
