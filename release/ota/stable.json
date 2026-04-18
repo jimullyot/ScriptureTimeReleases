@@ -1,34 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-18T12:47:17Z",
+  "generatedAt": "2026-04-18T20:03:54Z",
   "release": {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "channel": "stable",
-    "publishedAt": "2026-04-18T12:47:17Z",
-    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.1.0/ScriptureTime-1.1.0.bin",
-    "sha256": "c4612510fec22e400a84cf6f2eb7384e2a58e85431c7f31e4070efec7b38af58",
-    "size": 3861760,
+    "publishedAt": "2026-04-18T20:03:54Z",
+    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.1.1/ScriptureTime-1.1.1.bin",
+    "sha256": "3e25ed09d747246eefd1ed53ea2e973e04f8e341f182c3f4e6683e29be4ea911",
+    "size": 2551280,
     "deprecated": false,
     "invalid": false,
     "replacementVersion": "",
     "reason": "",
     "changelog": {
       "improvements": [
-        "Dynamic holiday image display for Easter and Christmas on the main screen.",
-        "Holiday images automatically appear and disappear based on the current date.",
-        "LVGL memory allocator routed to PSRAM for reliable large image decoding.",
-        "Per-book progress updates during Bible data loading at startup."
+        "Reduced memory footprint by loading the main screen background image from LittleFS at runtime instead of compiling it into the firmware binary."
       ],
-      "fixes": [
-        "Fixed PNG image decoding failure (alloc error) caused by LVGL 9.x memory configuration.",
-        "Fixed red-letter fallback text incorrectly rendering in red."
-      ],
-      "notes": [
-        "Holiday images (Christmas and Easter) are loaded from LittleFS and displayed when the date matches.",
-        "Set the date via the DateTime settings screen to preview holiday images."
-      ]
+      "fixes": [],
+      "notes": []
     },
     "chunkSize": 131072,
-    "chunkCount": 30
+    "chunkCount": 20
   }
 }

@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-18T12:47:17Z",
+  "generatedAt": "2026-04-18T20:03:54Z",
   "releases": [
+    {
+      "version": "1.1.1",
+      "channel": "stable",
+      "publishedAt": "2026-04-18T20:03:54Z",
+      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.1.1/ScriptureTime-1.1.1.bin",
+      "sha256": "3e25ed09d747246eefd1ed53ea2e973e04f8e341f182c3f4e6683e29be4ea911",
+      "size": 2551280,
+      "deprecated": false,
+      "invalid": false,
+      "replacementVersion": "",
+      "reason": "",
+      "changelog": {
+        "improvements": [
+          "Reduced memory footprint by loading the main screen background image from LittleFS at runtime instead of compiling it into the firmware binary."
+        ],
+        "fixes": [],
+        "notes": []
+      },
+      "chunkSize": 131072,
+      "chunkCount": 20
+    },
     {
       "version": "1.1.0",
       "channel": "stable",
