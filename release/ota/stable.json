@@ -1,31 +1,31 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-13T01:06:01Z",
+  "generatedAt": "2026-04-18T12:47:17Z",
   "release": {
-    "version": "1.0.6",
+    "version": "1.1.0",
     "channel": "stable",
-    "publishedAt": "2026-04-13T01:06:01Z",
-    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.0.6/ScriptureTime-1.0.6.bin",
-    "sha256": "1d33e9990562961b45bc19f23e3449a67e3c609ee887e7e3f681742b2dfb764e",
-    "size": 3832992,
+    "publishedAt": "2026-04-18T12:47:17Z",
+    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.1.0/ScriptureTime-1.1.0.bin",
+    "sha256": "c4612510fec22e400a84cf6f2eb7384e2a58e85431c7f31e4070efec7b38af58",
+    "size": 3861760,
     "deprecated": false,
     "invalid": false,
     "replacementVersion": "",
     "reason": "",
     "changelog": {
       "improvements": [
-        "Initial support for over-the-air firmware updates.",
-        "OTA progress displayed on screen during firmware download.",
-        "Resolved PSRAM initialization failure in command-line builds.",
-        "SDIO stability improvements for reliable chunked OTA over ESP-Hosted."
+        "Dynamic holiday image display for Easter and Christmas on the main screen.",
+        "Holiday images automatically appear and disappear based on the current date.",
+        "LVGL memory allocator routed to PSRAM for reliable large image decoding.",
+        "Per-book progress updates during Bible data loading at startup."
       ],
       "fixes": [
-        "Fixed build scripts overriding PSRAM board flags (BOARD_HAS_PSRAM).",
-        "Fixed OTA update dialog text overlapping action buttons."
+        "Fixed PNG image decoding failure (alloc error) caused by LVGL 9.x memory configuration.",
+        "Fixed red-letter fallback text incorrectly rendering in red."
       ],
       "notes": [
-        "OTA updates can be initiated from General Settings when connected to WiFi.",
-        "Firmware downloads resume from the last completed chunk after a power cycle."
+        "Holiday images (Christmas and Easter) are loaded from LittleFS and displayed when the date matches.",
+        "Set the date via the DateTime settings screen to preview holiday images."
       ]
     },
     "chunkSize": 131072,

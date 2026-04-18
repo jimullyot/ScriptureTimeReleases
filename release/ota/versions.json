@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-13T01:06:01Z",
+  "generatedAt": "2026-04-18T12:47:17Z",
   "releases": [
+    {
+      "version": "1.1.0",
+      "channel": "stable",
+      "publishedAt": "2026-04-18T12:47:17Z",
+      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.1.0/ScriptureTime-1.1.0.bin",
+      "sha256": "c4612510fec22e400a84cf6f2eb7384e2a58e85431c7f31e4070efec7b38af58",
+      "size": 3861760,
+      "deprecated": false,
+      "invalid": false,
+      "replacementVersion": "",
+      "reason": "",
+      "changelog": {
+        "improvements": [
+          "Dynamic holiday image display for Easter and Christmas on the main screen.",
+          "Holiday images automatically appear and disappear based on the current date.",
+          "LVGL memory allocator routed to PSRAM for reliable large image decoding.",
+          "Per-book progress updates during Bible data loading at startup."
+        ],
+        "fixes": [
+          "Fixed PNG image decoding failure (alloc error) caused by LVGL 9.x memory configuration.",
+          "Fixed red-letter fallback text incorrectly rendering in red."
+        ],
+        "notes": [
+          "Holiday images (Christmas and Easter) are loaded from LittleFS and displayed when the date matches.",
+          "Set the date via the DateTime settings screen to preview holiday images."
+        ]
+      },
+      "chunkSize": 131072,
+      "chunkCount": 30
+    },
     {
       "version": "1.0.6",
       "channel": "stable",
