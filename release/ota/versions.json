@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-18T20:13:48Z",
+  "generatedAt": "2026-04-18T22:27:36Z",
   "releases": [
     {
       "version": "1.1.1",
@@ -60,10 +60,10 @@
       "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.0.6/ScriptureTime-1.0.6.bin",
       "sha256": "1d33e9990562961b45bc19f23e3449a67e3c609ee887e7e3f681742b2dfb764e",
       "size": 3832992,
-      "deprecated": false,
+      "deprecated": true,
       "invalid": false,
-      "replacementVersion": "",
-      "reason": "",
+      "replacementVersion": "1.1.1",
+      "reason": "Superseded by newer release",
       "changelog": {
         "improvements": [
           "Initial support for over-the-air firmware updates.",
