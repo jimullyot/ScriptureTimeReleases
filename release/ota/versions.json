@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-18T20:03:54Z",
+  "generatedAt": "2026-04-18T20:13:48Z",
   "releases": [
     {
       "version": "1.1.1",
       "channel": "stable",
-      "publishedAt": "2026-04-18T20:03:54Z",
+      "publishedAt": "2026-04-18T20:13:48Z",
       "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.1.1/ScriptureTime-1.1.1.bin",
-      "sha256": "3e25ed09d747246eefd1ed53ea2e973e04f8e341f182c3f4e6683e29be4ea911",
+      "sha256": "95213e133e355358b0a8ee5f1de56cd05bcb5243ec5c6d276316c5bf439bd9bf",
       "size": 2551280,
       "deprecated": false,
       "invalid": false,
