@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-18T22:28:12Z",
+  "generatedAt": "2026-04-18T23:47:43Z",
   "releases": [
+    {
+      "version": "1.1.2",
+      "channel": "stable",
+      "publishedAt": "2026-04-18T23:47:43Z",
+      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.1.2/ScriptureTime-1.1.2.bin",
+      "sha256": "3319e1f3179cffd2850327c7849afe8bdf2cfdcbb39f6673f334f99abca8bdfe",
+      "size": 2551296,
+      "deprecated": false,
+      "invalid": false,
+      "replacementVersion": "",
+      "reason": "",
+      "changelog": {
+        "improvements": [
+          "Bigger holiday images"
+        ],
+        "fixes": [],
+        "notes": []
+      },
+      "chunkSize": 131072,
+      "chunkCount": 20
+    },
     {
       "version": "1.1.1",
       "channel": "stable",
