@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-19T18:19:13Z",
+  "generatedAt": "2026-04-19T18:21:57Z",
   "release": {
-    "version": "1.1.4",
+    "version": "1.1.5",
     "channel": "stable",
-    "publishedAt": "2026-04-19T12:06:50Z",
-    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.1.4/ScriptureTime-1.1.4.bin",
-    "sha256": "cab384378acc6912e0562792e066f280cffd8c2e5b34c51848ed2d682e774c49",
-    "size": 2551744,
+    "publishedAt": "2026-04-19T18:21:57Z",
+    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.1.5/ScriptureTime-1.1.5.bin",
+    "sha256": "279953f060e5f858a6d3285ffbd402e40b6ba9841f04686cf4a298f5ac24442d",
+    "size": 2552304,
     "deprecated": false,
     "invalid": false,
     "replacementVersion": "",
     "reason": "",
     "changelog": {
       "improvements": [
-        "Better wifi messaging at startup."
+        "Tell users the screen flickers while performing an OTA update."
       ],
       "fixes": [],
       "notes": []
