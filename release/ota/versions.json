@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-19T18:56:21Z",
+  "generatedAt": "2026-04-19T18:56:30Z",
   "releases": [
     {
       "version": "1.1.6",
@@ -16,27 +16,6 @@
       "changelog": {
         "improvements": [
           "Message about screen flicker during OTA updates."
-        ],
-        "fixes": [],
-        "notes": []
-      },
-      "chunkSize": 131072,
-      "chunkCount": 20
-    },
-    {
-      "version": "1.1.5",
-      "channel": "stable",
-      "publishedAt": "2026-04-19T18:21:57Z",
-      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.1.5/ScriptureTime-1.1.5.bin",
-      "sha256": "279953f060e5f858a6d3285ffbd402e40b6ba9841f04686cf4a298f5ac24442d",
-      "size": 2552304,
-      "deprecated": false,
-      "invalid": false,
-      "replacementVersion": "",
-      "reason": "",
-      "changelog": {
-        "improvements": [
-          "Tell users the screen flickers while performing an OTA update."
         ],
         "fixes": [],
         "notes": []
