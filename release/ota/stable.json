@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-20T00:50:32Z",
+  "generatedAt": "2026-04-20T01:08:06Z",
   "release": {
-    "version": "1.2.1",
+    "version": "1.2.2",
     "channel": "stable",
-    "publishedAt": "2026-04-20T00:50:32Z",
-    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.2.1/ScriptureTime-1.2.1.bin",
-    "sha256": "58538cb2641250dbe361da0537cee250e522dc914b5f19719be7016f7f4945e6",
-    "size": 2554720,
+    "publishedAt": "2026-04-20T01:08:06Z",
+    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.2.2/ScriptureTime-1.2.2.bin",
+    "sha256": "b12e31d9e2d0114807d71880dc23c8532ae2a32d15cb6f5a158d33cefbc6f12b",
+    "size": 2554560,
     "deprecated": false,
     "invalid": false,
     "replacementVersion": "",
     "reason": "",
     "changelog": {
       "improvements": [
-        "Move update processing back to another core."
+        "Another OTA update trial"
       ],
       "fixes": [],
       "notes": []
