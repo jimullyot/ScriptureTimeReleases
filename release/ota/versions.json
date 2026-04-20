@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-20T00:29:28Z",
+  "generatedAt": "2026-04-20T00:50:32Z",
   "releases": [
+    {
+      "version": "1.2.1",
+      "channel": "stable",
+      "publishedAt": "2026-04-20T00:50:32Z",
+      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.2.1/ScriptureTime-1.2.1.bin",
+      "sha256": "58538cb2641250dbe361da0537cee250e522dc914b5f19719be7016f7f4945e6",
+      "size": 2554720,
+      "deprecated": false,
+      "invalid": false,
+      "replacementVersion": "",
+      "reason": "",
+      "changelog": {
+        "improvements": [
+          "Move update processing back to another core."
+        ],
+        "fixes": [],
+        "notes": []
+      },
+      "chunkSize": 131072,
+      "chunkCount": 20
+    },
     {
       "version": "1.2.0",
       "channel": "stable",
