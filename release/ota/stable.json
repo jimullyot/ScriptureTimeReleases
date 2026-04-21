@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-21T00:45:38Z",
+  "generatedAt": "2026-04-21T01:07:19Z",
   "release": {
-    "version": "1.2.9",
+    "version": "1.2.10",
     "channel": "stable",
-    "publishedAt": "2026-04-21T00:45:38Z",
-    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.2.9/ScriptureTime-1.2.9.bin",
-    "sha256": "7456105e269d73b57cd62fbace96f7187e171e9f43cc8269c03dee4caed6ab52",
-    "size": 2556128,
+    "publishedAt": "2026-04-21T01:07:19Z",
+    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.2.10/ScriptureTime-1.2.10.bin",
+    "sha256": "4ef479b5945b51c6b3d899ae696176a9f3fbfd3c0c8e2536becaa76c4a20006b",
+    "size": 2555984,
     "deprecated": false,
     "invalid": false,
     "replacementVersion": "",
     "reason": "",
     "changelog": {
       "improvements": [
-        "Giving up for now on restart keeping wifi intact"
+        "One last trial"
       ],
       "fixes": [],
       "notes": []

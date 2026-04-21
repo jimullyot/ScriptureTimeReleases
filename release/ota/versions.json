@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-21T00:45:38Z",
+  "generatedAt": "2026-04-21T01:07:19Z",
   "releases": [
+    {
+      "version": "1.2.10",
+      "channel": "stable",
+      "publishedAt": "2026-04-21T01:07:19Z",
+      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.2.10/ScriptureTime-1.2.10.bin",
+      "sha256": "4ef479b5945b51c6b3d899ae696176a9f3fbfd3c0c8e2536becaa76c4a20006b",
+      "size": 2555984,
+      "deprecated": false,
+      "invalid": false,
+      "replacementVersion": "",
+      "reason": "",
+      "changelog": {
+        "improvements": [
+          "One last trial"
+        ],
+        "fixes": [],
+        "notes": []
+      },
+      "chunkSize": 131072,
+      "chunkCount": 20
+    },
     {
       "version": "1.2.9",
       "channel": "stable",
