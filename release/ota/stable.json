@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-21T01:07:19Z",
+  "generatedAt": "2026-04-21T01:22:30Z",
   "release": {
-    "version": "1.2.10",
+    "version": "1.3.0",
     "channel": "stable",
-    "publishedAt": "2026-04-21T01:07:19Z",
-    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.2.10/ScriptureTime-1.2.10.bin",
-    "sha256": "4ef479b5945b51c6b3d899ae696176a9f3fbfd3c0c8e2536becaa76c4a20006b",
+    "publishedAt": "2026-04-21T01:22:30Z",
+    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.3.0/ScriptureTime-1.3.0.bin",
+    "sha256": "75b9cc1560f30a5d6dc98e42ef71bba89f2ef9099594377c7c2c771074005ab4",
     "size": 2555984,
     "deprecated": false,
     "invalid": false,
@@ -14,7 +14,7 @@
     "reason": "",
     "changelog": {
       "improvements": [
-        "One last trial"
+        "Unplug / replug in unit after update is downloaded."
       ],
       "fixes": [],
       "notes": []
