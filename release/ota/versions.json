@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-21T01:23:55Z",
+  "generatedAt": "2026-04-21T01:23:59Z",
   "releases": [
     {
       "version": "1.3.0",
@@ -16,27 +16,6 @@
       "changelog": {
         "improvements": [
           "Unplug / replug in unit after update is downloaded."
-        ],
-        "fixes": [],
-        "notes": []
-      },
-      "chunkSize": 131072,
-      "chunkCount": 20
-    },
-    {
-      "version": "1.2.9",
-      "channel": "stable",
-      "publishedAt": "2026-04-21T00:45:38Z",
-      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.2.9/ScriptureTime-1.2.9.bin",
-      "sha256": "7456105e269d73b57cd62fbace96f7187e171e9f43cc8269c03dee4caed6ab52",
-      "size": 2556128,
-      "deprecated": false,
-      "invalid": false,
-      "replacementVersion": "",
-      "reason": "",
-      "changelog": {
-        "improvements": [
-          "Giving up for now on restart keeping wifi intact"
         ],
         "fixes": [],
         "notes": []
