@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-20T23:39:33Z",
+  "generatedAt": "2026-04-21T00:01:08Z",
   "release": {
-    "version": "1.2.5",
+    "version": "1.2.6",
     "channel": "stable",
-    "publishedAt": "2026-04-20T23:39:33Z",
-    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.2.5/ScriptureTime-1.2.5.bin",
-    "sha256": "22f423ee4841269eea93f9874b0282156af4160dd7600f46076644f7a8fc2299",
-    "size": 2555920,
+    "publishedAt": "2026-04-21T00:01:08Z",
+    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.2.6/ScriptureTime-1.2.6.bin",
+    "sha256": "1b01e1d5ea269f6f5be2224db359b150c5a42a8596603224fa32d8c73e01bd03",
+    "size": 2566080,
     "deprecated": false,
     "invalid": false,
     "replacementVersion": "",
     "reason": "",
     "changelog": {
       "improvements": [
-        "Another rebooting test"
+        "Test"
       ],
       "fixes": [],
       "notes": []
