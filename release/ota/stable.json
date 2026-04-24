@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-24T01:57:27Z",
+  "generatedAt": "2026-04-24T02:18:17Z",
   "release": {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "channel": "stable",
-    "publishedAt": "2026-04-24T01:57:27Z",
-    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.5.0/ScriptureTime-1.5.0.bin",
-    "sha256": "a1dc3f4c5002f1d56df63695a236b5024095b11b0c06e66ab41ad88295dcfcc9",
-    "size": 2595280,
+    "publishedAt": "2026-04-24T02:18:17Z",
+    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.5.1/ScriptureTime-1.5.1.bin",
+    "sha256": "b9f4fdf4e9279eedec24236a0320c7d4d49afa931418ca8f3c65a02c590a6a07",
+    "size": 2595264,
     "deprecated": false,
     "invalid": false,
     "replacementVersion": "",
     "reason": "",
     "changelog": {
-      "improvements": [
-        "In chapter mode, now we show all verses and you can scroll."
+      "improvements": [],
+      "fixes": [
+        "Fixed a problem with the update pending message showing a box instead of dash."
       ],
-      "fixes": [],
       "notes": []
     },
     "chunkSize": 131072,
