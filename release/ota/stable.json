@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-22T10:17:00Z",
+  "generatedAt": "2026-04-24T01:57:27Z",
   "release": {
-    "version": "1.4.1",
+    "version": "1.5.0",
     "channel": "stable",
-    "publishedAt": "2026-04-22T10:17:00Z",
-    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.4.1/ScriptureTime-1.4.1.bin",
-    "sha256": "88dd450b753a8479c76047ba69dd78e24a9e4869698f1bf6ca8e13d22e7bb410",
-    "size": 2589808,
+    "publishedAt": "2026-04-24T01:57:27Z",
+    "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.5.0/ScriptureTime-1.5.0.bin",
+    "sha256": "a1dc3f4c5002f1d56df63695a236b5024095b11b0c06e66ab41ad88295dcfcc9",
+    "size": 2595280,
     "deprecated": false,
     "invalid": false,
     "replacementVersion": "",
     "reason": "",
     "changelog": {
-      "improvements": [],
-      "fixes": [
-        "Fixed a problem with the main screen showing no text when coming back from the About screen at 5:59AM."
+      "improvements": [
+        "In chapter mode, now we show all verses and you can scroll."
       ],
+      "fixes": [],
       "notes": []
     },
     "chunkSize": 131072,
