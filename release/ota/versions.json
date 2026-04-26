@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-26T05:10:30Z",
+  "generatedAt": "2026-04-26T21:33:40Z",
   "releases": [
+    {
+      "version": "1.8.0",
+      "channel": "stable",
+      "publishedAt": "2026-04-26T21:33:40Z",
+      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.8.0/ScriptureTime-1.8.0.bin",
+      "sha256": "7fc22617bb58f875b3dbb3fa0cdc32d82f49a8ea1b3db75f74baa2020c39c899",
+      "size": 2452560,
+      "deprecated": false,
+      "invalid": false,
+      "replacementVersion": "",
+      "reason": "",
+      "changelog": {
+        "improvements": [
+          "Better date and time handling now on the settings screen."
+        ],
+        "fixes": [],
+        "notes": []
+      },
+      "chunkSize": 131072,
+      "chunkCount": 19
+    },
     {
       "version": "1.7.0",
       "channel": "stable",
