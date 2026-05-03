@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-04-26T21:33:40Z",
+  "generatedAt": "2026-05-03T11:39:24Z",
   "releases": [
+    {
+      "version": "1.9.0",
+      "channel": "stable",
+      "publishedAt": "2026-05-03T11:39:24Z",
+      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.9.0/ScriptureTime-1.9.0.bin",
+      "sha256": "23550bce0606a9e6a656f8e363912058e49081a4ec1b56ae499eddcbbfa7b152",
+      "size": 2458960,
+      "deprecated": false,
+      "invalid": false,
+      "replacementVersion": "",
+      "reason": "",
+      "changelog": {
+        "improvements": [
+          "Added a sync date and time daily toggle to Clock settings.",
+          "Highlighting words specific the hour for on the hour handling."
+        ],
+        "fixes": [],
+        "notes": []
+      },
+      "chunkSize": 131072,
+      "chunkCount": 19
+    },
     {
       "version": "1.8.0",
       "channel": "stable",
