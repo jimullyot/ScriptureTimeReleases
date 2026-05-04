@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-04T01:47:19Z",
+  "generatedAt": "2026-05-04T01:47:22Z",
   "releases": [
     {
       "version": "1.10.0",
@@ -88,27 +88,6 @@
         "notes": [
           "DateTime Settings still needs more love."
         ]
-      },
-      "chunkSize": 131072,
-      "chunkCount": 19
-    },
-    {
-      "version": "1.6.0",
-      "channel": "stable",
-      "publishedAt": "2026-04-25T12:19:02Z",
-      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.6.0/ScriptureTime-1.6.0.bin",
-      "sha256": "536c24da9c389c6e42f70f0fc5883db0abaabbd91fdaa5dcc3e3be57936db769",
-      "size": 2438256,
-      "deprecated": false,
-      "invalid": false,
-      "replacementVersion": "",
-      "reason": "",
-      "changelog": {
-        "improvements": [
-          "New Clock Settings page with timezone support"
-        ],
-        "fixes": [],
-        "notes": []
       },
       "chunkSize": 131072,
       "chunkCount": 19
