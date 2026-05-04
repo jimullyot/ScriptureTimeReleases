@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-04T01:46:56Z",
+  "generatedAt": "2026-05-04T01:47:02Z",
   "releases": [
     {
       "version": "1.10.0",
@@ -171,27 +171,6 @@
         "fixes": [
           "Fixed a problem with the main screen showing no text when coming back from the About screen at 5:59AM."
         ],
-        "notes": []
-      },
-      "chunkSize": 131072,
-      "chunkCount": 20
-    },
-    {
-      "version": "1.4.0",
-      "channel": "stable",
-      "publishedAt": "2026-04-22T01:39:08Z",
-      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.4.0/ScriptureTime-1.4.0.bin",
-      "sha256": "73c6b1a372d0d2e51c5ec920daa5da9c239cdd515e66d29a1748617ba4979397",
-      "size": 2589872,
-      "deprecated": false,
-      "invalid": false,
-      "replacementVersion": "",
-      "reason": "",
-      "changelog": {
-        "improvements": [
-          "New buttons on setting screens for easier and more reliable movement between screens."
-        ],
-        "fixes": [],
         "notes": []
       },
       "chunkSize": 131072,
