@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-04T01:47:13Z",
+  "generatedAt": "2026-05-04T01:47:19Z",
   "releases": [
     {
       "version": "1.10.0",
@@ -112,27 +112,6 @@
       },
       "chunkSize": 131072,
       "chunkCount": 19
-    },
-    {
-      "version": "1.5.1",
-      "channel": "stable",
-      "publishedAt": "2026-04-24T02:18:17Z",
-      "firmwareUrl": "https://github.com/jimullyot/ScriptureTimeReleases/releases/download/v1.5.1/ScriptureTime-1.5.1.bin",
-      "sha256": "b9f4fdf4e9279eedec24236a0320c7d4d49afa931418ca8f3c65a02c590a6a07",
-      "size": 2595264,
-      "deprecated": false,
-      "invalid": false,
-      "replacementVersion": "",
-      "reason": "",
-      "changelog": {
-        "improvements": [],
-        "fixes": [
-          "Fixed a problem with the update pending message showing a box instead of dash."
-        ],
-        "notes": []
-      },
-      "chunkSize": 131072,
-      "chunkCount": 20
     }
   ]
 }
